@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "siteName": "JDM Archive",
+  "brochures": [
+    {
+      "id": "nissan-skyline-r34-1999-jp",
+      "brand": "Nissan",
+      "model": "Skyline GT-R",
+      "generation": "R34",
+      "year": 1999,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/nissan-skyline.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Skyline GT-R brochure. Replace this record with details from your collection."
+    },
+    {
+      "id": "nissan-silvia-s15-2000-jp",
+      "brand": "Nissan",
+      "model": "Silvia",
+      "generation": "S15",
+      "year": 2000,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/nissan-silvia.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Silvia brochure."
+    },
+    {
+      "id": "toyota-supra-a80-1997-jp",
+      "brand": "Toyota",
+      "model": "Supra",
+      "generation": "A80",
+      "year": 1997,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/toyota-supra.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Supra brochure."
+    },
+    {
+      "id": "toyota-celica-t230-2000-jp",
+      "brand": "Toyota",
+      "model": "Celica",
+      "generation": "T230",
+      "year": 2000,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/toyota-celica.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Celica brochure."
+    },
+    {
+      "id": "honda-integra-dc2-1998-jp",
+      "brand": "Honda",
+      "model": "Integra Type R",
+      "generation": "DC2",
+      "year": 1998,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/honda-integra.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Integra Type R brochure."
+    },
+    {
+      "id": "honda-nsx-na1-1995-jp",
+      "brand": "Honda",
+      "model": "NSX",
+      "generation": "NA1",
+      "year": 1995,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/honda-nsx.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market NSX brochure."
+    },
+    {
+      "id": "mazda-rx7-fd-1999-jp",
+      "brand": "Mazda",
+      "model": "RX-7",
+      "generation": "FD3S",
+      "year": 1999,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/mazda-rx7.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market RX-7 brochure."
+    },
+    {
+      "id": "mitsubishi-evo-vi-1999-jp",
+      "brand": "Mitsubishi",
+      "model": "Lancer Evolution VI",
+      "generation": "CP9A",
+      "year": 1999,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/mitsubishi-evo.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Lancer Evolution VI brochure."
+    },
+    {
+      "id": "subaru-impreza-gc8-1998-jp",
+      "brand": "Subaru",
+      "model": "Impreza WRX STI",
+      "generation": "GC8",
+      "year": 1998,
+      "market": "Japan",
+      "language": "Japanese",
+      "type": "Model catalogue",
+      "cover": "assets/covers/subaru-impreza.svg",
+      "pdfUrl": "",
+      "description": "Sample entry for a Japanese-market Impreza WRX STI brochure."
+    }
+  ]
+}

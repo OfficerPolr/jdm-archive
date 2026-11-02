@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+<defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#252b35"/><stop offset="1" stop-color="#11151b"/></linearGradient><pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".055"/></pattern></defs>
+<rect width="600" height="800" fill="url(#g)"/><rect width="600" height="800" fill="url(#p)"/>
+<path d="M0 520L600 320V800H0Z" fill="#bdc4ce" opacity=".12"/><circle cx="480" cy="210" r="170" fill="none" stroke="#bdc4ce" stroke-opacity=".35" stroke-width="2"/><circle cx="480" cy="210" r="135" fill="none" stroke="#fff" stroke-opacity=".15"/>
+<path d="M75 470 Q130 410 225 408 L345 350 Q390 330 448 355 L515 407 Q550 420 550 455 L532 472 L485 472 Q470 420 420 420 Q365 420 350 472 L220 472 Q205 420 155 420 Q105 420 92 472Z" fill="#bdc4ce" opacity=".88"/>
+<path d="M242 405L355 365Q390 354 424 370L472 408Z" fill="#151a22"/><circle cx="155" cy="472" r="35" fill="#101318" stroke="#d5d9df" stroke-width="7"/><circle cx="420" cy="472" r="35" fill="#101318" stroke="#d5d9df" stroke-width="7"/>
+<text x="54" y="75" fill="#fff" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">TOYOTA</text><path d="M54 100H546" stroke="#fff" stroke-opacity=".35"/>
+<text x="54" y="635" fill="#fff" font-family="Arial,sans-serif" font-size="35" font-weight="bold" letter-spacing="1">CELICA</text><text x="56" y="676" fill="#bdc4ce" font-family="Arial,sans-serif" font-size="19" letter-spacing="4">T230 / 2000</text><text x="56" y="745" fill="#9ba4af" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">JDM ARCHIVE · SAMPLE COVER</text>
+</svg>
