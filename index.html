@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101318">
+  <meta name="description" content="JDM Archive — a growing library of Japanese automotive brochures.">
+  <title>JDM Archive — Japanese Automotive Brochures</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="JDM Archive home">
+      <span class="brand-mark">J</span>
+      <span>JDM <b>ARCHIVE</b></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#archive">Archive</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> JAPANESE AUTOMOTIVE LITERATURE</p>
+        <h1>Automotive history,<br><em>preserved.</em></h1>
+        <p class="hero-description">A growing digital library of original Japanese-market brochures, catalogues and automotive literature.</p>
+        <a class="hero-link" href="#archive">EXPLORE THE ARCHIVE <span>↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+        <div class="art-label">JDM<br><span>ARCHIVE</span></div>
+        <div class="art-coordinate">35° 41' N<br>139° 41' E</div>
+        <div class="art-bottom">ORIGINAL LITERATURE · EST. 2026</div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Archive statistics">
+      <div><strong id="stat-brochures">—</strong><span>BROCHURES</span></div>
+      <div><strong id="stat-brands">—</strong><span>MANUFACTURERS</span></div>
+      <div><strong id="stat-years">—</strong><span>YEARS COVERED</span></div>
+    </section>
+
+    <section class="archive-section" id="archive">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE COLLECTION</p><h2>Browse the archive</h2></div>
+        <span class="section-note">01 / CATALOGUE</span>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Search make, model, generation or year…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <select id="brand-filter" aria-label="Filter by manufacturer"><option value="">All manufacturers</option></select>
+        <select id="year-filter" aria-label="Filter by year"><option value="">All years</option></select>
+      </div>
+
+      <div class="brand-strip" id="brand-strip" aria-label="Quick manufacturer filters"></div>
+      <div class="results-line"><span id="results-count">Loading collection…</span><button id="clear-filters" class="text-button" type="button">CLEAR FILTERS ×</button></div>
+      <div class="brochure-grid" id="brochure-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="empty-icon">⌕</span><h3>No brochures found</h3><p>Try another search or clear your filters.</p>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div><p class="eyebrow">ABOUT THIS PROJECT</p><h2>A library for the<br><em>details worth keeping.</em></h2></div>
+      <p>JDM Archive is an independent catalogue project documenting Japanese automotive brochures. The collection is organised by manufacturer, model and year, with original documents retained wherever possible.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="./"><span class="brand-mark">J</span><span>JDM <b>ARCHIVE</b></span></a>
+    <span>AN INDEPENDENT AUTOMOTIVE BROCHURE CATALOGUE</span>
+    <span>© <span id="current-year"></span> JDM ARCHIVE</span>
+  </footer>
+
+  <dialog id="brochure-dialog" class="brochure-dialog">
+    <button class="dialog-close" id="dialog-close" aria-label="Close brochure details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
